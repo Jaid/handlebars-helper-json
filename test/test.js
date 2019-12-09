@@ -1,6 +1,5 @@
-import path from "path"
-
 import Handlebars from "handlebars"
+import path from "path"
 
 const indexModule = (process.env.MAIN ? path.resolve(process.env.MAIN) : path.join(__dirname, "..", "src")) |> require
 
@@ -10,16 +9,12 @@ const indexModule = (process.env.MAIN ? path.resolve(process.env.MAIN) : path.jo
 const {default: handlebarsHelperJson} = indexModule
 
 const handlebars = Handlebars.create()
-handlebars.registerHelper("plural", handlebarsHelperJson)
+handlebars.registerHelper("json", handlebarsHelperJson)
 
-it("should run for singular", () => {
-  const template = handlebars.compile("I have {{plural bananas 'banana' one=true}}!")
-  const result = template({bananas: 1})
-  expect(result).toBe("I have one banana!")
-})
-
-it("should run for plural", () => {
-  const template = handlebars.compile("I have {{plural bananas 'banana' 'bananas'}}!")
-  const result = template({bananas: 4})
-  expect(result).toBe("I have 4 bananas!")
+it("should run", () => {
+  const template = handlebars.compile("Hello {{{json name}}}!")
+  expect(template({name: "Anna"})).toBe("Hello \"Anna\"!")
+  expect(template({name: true})).toBe("Hello true!")
+  expect(template({name: "1"})).toBe("Hello \"1\"!")
+  expect(template({name: 1})).toBe("Hello 1!")
 })
