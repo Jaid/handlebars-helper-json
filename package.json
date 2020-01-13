@@ -32,5 +32,6 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "handlebars-helper-json",
-  "description": "Handlebars helper that returns given number with a possibly pluralized noun."
+  "description": "Handlebars helper that returns given number with a possibly pluralized noun.",
+  "funding": "https://github.com/sponsors/jaid"
 }
