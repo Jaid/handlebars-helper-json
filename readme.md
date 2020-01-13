@@ -1,9 +1,9 @@
 # handlebars-helper-json
 
 
-<a href="https://raw.githubusercontent.com/Jaid/handlebars-helper-json/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/handlebars-helper-json?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/handlebars-helper-json/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fhandlebars-helper-json%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/handlebars-helper-json/commits"><img src="https://img.shields.io/github/commits-since/Jaid/handlebars-helper-json/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/Jaid/handlebars-helper-json/commits"><img src="https://img.shields.io/github/last-commit/Jaid/handlebars-helper-json?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/handlebars-helper-json/issues"><img src="https://img.shields.io/github/issues/Jaid/handlebars-helper-json?style=flat-square&logo=github" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/handlebars-helper-json"><img src="https://img.shields.io/npm/v/handlebars-helper-json?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/handlebars-helper-json/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/handlebars-helper-json?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/handlebars-helper-json"><img src="https://img.shields.io/npm/dm/handlebars-helper-json?style=flat-square&logo=npm" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/jaid/handlebars-helper-json/master/license.txt"><img src="https://img.shields.io/github/license/jaid/handlebars-helper-json?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor handlebars-helper-json"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/handlebars-helper-json/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Fhandlebars-helper-json%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/handlebars-helper-json/commits"><img src="https://img.shields.io/github/commits-since/jaid/handlebars-helper-json/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/jaid/handlebars-helper-json/commits"><img src="https://img.shields.io/github/last-commit/jaid/handlebars-helper-json?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/handlebars-helper-json/issues"><img src="https://img.shields.io/github/issues/jaid/handlebars-helper-json?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/handlebars-helper-json"><img src="https://img.shields.io/npm/v/handlebars-helper-json?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/handlebars-helper-json/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/handlebars-helper-json?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/handlebars-helper-json"><img src="https://img.shields.io/npm/dm/handlebars-helper-json?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **Handlebars helper that returns given number with a possibly pluralized noun.**
 
@@ -37,14 +37,13 @@ yarn add handlebars-helper-json@^1.0.0
 
 
 
-
 ## Development
 
 
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/handlebars-helper-json.git
+git clone git@github.com:jaid/handlebars-helper-json.git
 cd handlebars-helper-json
 npm install
 ```
