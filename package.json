@@ -32,10 +32,12 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "handlebars-helper-json",
-  "description": "Handlebars helper that returns given number with a possibly pluralized noun.",
+  "description": "Handlebars helper that processes the input with JSON.stringify, useful for JavaScript code generation.",
   "funding": "https://github.com/sponsors/jaid",
   "repository": {
     "type": "git",
     "url": "https://github.com/jaid/handlebars-helper-json"
-  }
+  },
+  "homepage": "https://github.com/Jaid/handlebars-helper-json",
+  "keywords": []
 }
