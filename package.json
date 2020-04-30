@@ -37,5 +37,19 @@
     "url": "https://github.com/jaid/handlebars-helper-json"
   },
   "homepage": "https://github.com/Jaid/handlebars-helper-json",
-  "keywords": []
+  "keywords": [
+    "handlebars",
+    "handlebars-helper",
+    "handlebars-helpers",
+    "handlebars-plugin",
+    "helper",
+    "json",
+    "json-stringify",
+    "library",
+    "node",
+    "string",
+    "stringify",
+    "util",
+    "utility"
+  ]
 }
